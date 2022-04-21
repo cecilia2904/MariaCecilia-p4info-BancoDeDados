@@ -1,0 +1,5 @@
+Explique a seguinte afirmação: "Um Modelo deve refletir o seu aspecto temporal".
+
+Dados temporais são dados que mudam ao longo do tempo e para
+os quais BD mantém histórico (se necessário).
+

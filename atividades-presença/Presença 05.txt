@@ -1,0 +1,30 @@
+Quanto à cardinalidade que define um relacionamento, pede-se:
+
+a) Exemplifique e conceitue Cardinalidade Máxima e Cardinalidade Mínima
+
+A cardinalidade máxima, expressa o número máximo de ocorrências de determinada entidade, 
+associada a uma ocorrência da entidade em questão, através do relacionamento. A cardinalidade
+mínima, expressa o número mínimo de ocorrências de determinada entidade associada a uma 
+ocorrência da entidade em questão através do relacionamento. para as cardinalidades máximas,
+costumamos distinguir dois tipos: 1 (um) e N (cardinalidades maiores que 1). Já para as
+cardinalidades mínimas, costumamos distinguir dois tipos: 0 (zero) e 1 (um).
+
+b) Explique um exemplo de uma cardinalidade 1:1;
+
+Já o relacionamento um-para-um (1:1) será usado nos casos onde o registro de uma tabela só 
+poderá ter uma associação com um registro de outra tabela. No nosso caso, isso caberia na 
+relação entre um quarto de apartamento e um paciente, pois um paciente só poderá estar em
+um determinado apartamento, e cada apartamento só poderá abrigar um determinado paciente 
+(partindo do princípio de quartos individuais).
+
+c) Explique um exemplo de uma cardinalidade 1:n;
+
+Existirá o relacionamento um-para-vários (1:N) no relacionamento entre a tabela departamento em
+relação à tabela de médicos, pois um médico poderá trabalhar em somente um departamento do hospital, 
+contudo, um departamento poderá ter vários médicos.
+
+d) Explique um exemplo de uma cardinalidade n:n.
+
+Existirá o relacionamento vários-para-vários (N:N) entre os registros da tabela médico e os registros
+da tabela paciente, um médico atende diversos pacientes, assim como um paciente pode ser atendido por
+diversos médicos;

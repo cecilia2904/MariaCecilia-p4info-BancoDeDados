@@ -1,0 +1,78 @@
+A técnica de modelagem de dados mais utilizada é a abordagem Entidade-Relacionamento(ER). Essa 
+abordagem foi criada em 1976 por Peter Chen (https://en.wikipedia.org/wiki/Peter_Chen).
+Um Modelo Entidade-Relacionamento (Modelo ER) pode ser considerado como um padrão de fato para a modelagem conceitual.
+
+Defina os seguintes conceitos centrais da abordagem ER:
+
+a) Entidade;
+
+As entidades consistem em um conjunto de objetos da realidade modelada
+sobre os quais as informações devem ser coletadas. Devido o objeto de um 
+modelo ER modelar de forma abstrata um Banco de Dados, faz-se interessante
+que sejam registrados somente os objetos os quais deseja-se manter informações.
+Ademais, vale ressaltar que, na prática, seu conteúdo pode variar entre pessoa,
+coisa, lugar ou evento de interesse informativo, por exemplo. 
+
+b) Relacionamento;
+
+Relacionamentos representam associações do mundo real entre uma ou mais entidades
+e, dessa forma, não possuem existência física ou conceitual além de sua dependência
+das entidades associadas; sendo descritos em termos de grau, conectividade e existência.
+Resumindo, essa propriedade é um conjunto de associações entre ocorrências de entidades. 
+
+c) Atributo;
+
+Os atributos são as características de entidades que disponibilizam detalhes descritivos
+sobre elas. Uma ocorrência em particular de um atributo dentro de uma entidade ou relacionamento
+é chamada de valor de atributo.
+
+d) Domínio de um Atributo;
+
+Por domínio, ou tipo, pode-se entender como a maneira como determinado atributo (ou campo, se
+tratando de tabelas) armazena seu dado, ou seja, cada atributo possui a capacidade de armazenar
+um dado pertinente a uma linha (tupla) da tabela. Tais dados são geralmente armazenados e gerenciados
+pelos SGBDs. A maneira como o atributo NOME_PROD, por exemplo, armazena seus caracteres difere de como
+o atributo PRECO_PROD guarda seu valor. Portanto, essa diferença de armazenamento e esse conjunto de 
+valores que um determinado atributo pode assumir é definida como domínio de atributo. 
+
+
+e) Generalização/especialização;
+
+A generalização/especialização define-se em uma entidade genérica e de subconjuntos mais específicos. 
+Sabendo disso, é possível atribuir propriedades particulares a um subconjunto das ocorrências 
+(especializadas) de uma entidade geográfica. 
+
+Ademais, tal conceito central divide-se em duas classificações, total ou parcial, de acordo com a
+obrigatoriedade ou não de cada ocorrência da entidade especializada. Na primeira divisão, para cada
+ocorrência da entidade genérica existe sempre uma ocorrência em uma das entidades especializadas.
+Já na segunda divisão, nem toda ocorrência da entidade genérica possui ocorrência em uma entidade
+especializada.
+
+Além da classificação em total e parcial, há também mais duas: compartilhada e exclusiva. A 
+generalização/especialização exclusiva significa que, em uma hierarquia de generalização/especialização,
+uma ocorrência de entidade genérica é especializada no máximo uma vez. Já a quarta classificação, 
+a compartilhada, indica que, em uma hierarquia da propriedade em que estamos trabalhando, 
+uma ocorrência de entidade genérica pode aparecer em várias entidades.
+
+
+f) Entidade Associativa;
+
+Primeiramente um relacionamento é uma associação entre entidades. Sabendo disso, ao contrário da 
+modelagem ER, onde não foi prevista a possibilidade de associar entidade com relacionamento ou 
+ligar dois relacionamentos entre si; a Entidade Associativa surge como a redefinição de um 
+relacionamento, que passa a ser tratado como se fosse uma entidade para solucionar a limitação
+desse modelo.
+
+g) Cardinalidade de um Atributo.
+
+A Cardinalidade de um atributo consiste em ser um número que demonstra o comportamento 
+(número de ocorrências) de determinada entidade associada a uma ocorrência da entidade 
+em questão através do relacionamento. Por isso, o mesmo se torna uma propriedade fundamental
+do relacionamento quando necessitamos expressar as ideias no modelo e torná-lo cada vez mais
+preciso através da cardinalidade para os atributos.
+
+Nesse setor, existem dois tipos de cardinalidade: a mínima e a máxima. A primeira, como o próprio
+nome já diz, demonstra o número máximo de ocorrências de determinada entidade, associada a uma 
+ocorrência da entidade em questão, através do relacionamento. Em contrapartida, a cardinalidade
+mínima está relacionada com o número mínimo de ocorrências de determinada entidade associada a
+uma ocorrência da entidade em questão através do relacionamento.

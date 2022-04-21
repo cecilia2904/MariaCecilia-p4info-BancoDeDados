@@ -1,0 +1,16 @@
+Pesquise na bibliografia disponível.Defina o que é:
+
+1) Sistema Isolado
+
+O sistema isolado refere-se às partes individuais de dados que podem
+ser compartilhadas entre diversos usuários diferentes,significando que
+cada um daqueles usuários pode ter acesso à mesmaparte do dado (e pode 
+usá-la para finalidades distintas). Vale ressaltar que esse modo é na
+realidade uma consequência do fato de ser um banco de dados integrado.
+
+2) Sistema Integrado
+
+Podemos dizer que o sistema integrado está referente ao banco de dados 
+idealizado como sendo a unificação de diversos arquivos, que, de outra forma,
+ seriam distintos, eliminando parcial ou totalmente qualquer redundância entre
+ aqueles arquivos.

@@ -1,0 +1,62 @@
+Quanto a Abordagem Relacional, descreva os seguintes conceitos:
+
+a) Tabela
+
+A tabela é um conjunto não ordenado de tuplas (linhas). Cada tupla é
+composta por uma linha de atributos(campos), 
+
+b) Chave Primária
+
+Uma chave primária é uma coluna ou uma combinação de colunas cujos valores
+diferem uma linha das demais dentro de uma tabela. Nas definições formais
+de chave  primária,  exige-se  que  essa  seja mínima. Uma chave é mínima
+quando todas as suas colunas forem efetivamente necessárias  para  garantir
+o  requisito  de  unicidade  de  valores  da chave.
+
+c) Chave Estrangeira
+
+Uma chave estrangeira é uma coluna ou uma combinação de colunas, cujos valores
+aparecem necessariamente na chave primária de uma tabela. Nesse contexto, a
+chave estrangeira é o mecanismo que permite a implementação de relacionamentos
+em um banco de dados relacional. Vale ressaltar que a palavra “estrangeira”
+usada para denominar este tipo de chave pode ser enganosa, já que o termo
+leva a crer que a chave estrangeira sempre faz referência a uma  chave
+primária  de outra tabela.  Entretanto,  como sabemos, esta  restrição não existe.
+
+d) Chave Alternativa
+
+Em alguns casos, mais de uma coluna ou combinações de colunas podem servir para
+distinguir uma linha das demais. Uma das colunas (ou combinação de colunas) é
+escolhida como chave primária. As demais colunas ou combinações são denominadas
+chaves alternativas.
+
+e) Domínio da Coluna
+
+Quando uma tabela do banco de dados é definida, para cada coluna da tabela deve ser
+especificado um conjunto de valores (alfanumérico, numérico,...) que os campos da 
+respectiva coluna podem assumir. Este conjunto de valores é chamado de domínio da
+coluna ou domínio do campo.
+
+f) Integridade de Domínio
+
+Restrições deste tipo especificam que o valor de um campo deve obedecer a definição de
+valores admitidos para a coluna (o domínio da coluna). Nos primeiros SGBDs relacionais,
+era possível usar apenas domínios pré-definidos (número inteiro, número real, alfanumérico
+de tamanho definido, data,...); porém em SGBDs mais atuais, o usuário pode definir domínios
+próprios de sua aplicação (por exemplo, o domínio dos dias da semana ou das unidades da federação).
+
+g) Integridade de Vazio
+
+Por meio deste tipo de restrição de integridade é definido se os campos de uma coluna podem
+ou não ser vazios (se a coluna é obrigatória ou opcional). Como já foi mencionado, campos 
+que compõem a chave primária sempre devem ser diferentes de vazio
+
+h) Integridade de Chave
+
+Trata-se da restrição que define que os valores da chave primária e alternativa devem ser únicos.
+
+i) Integridade Referencial
+
+É a restrição que define que os valores dos campos que aparecem em uma chave estrangeira devem 
+aparecer na chave primária da tabela referenciada.
+

@@ -1,0 +1,34 @@
+Defina uma Tabela e exemplifique o uso de comando SQL que executam operações CRUD.
+
+Primeiro passo, CREATE:
+CREATE TABLE "FUNCIONARIO" (
+        "ID_FUNC"        INTEGER NOT NULL,
+        "NOME"        TEXT NOT NULL,
+        “IDADE”        TEXT NOT NULL,
+        PRIMARY KEY("ID_FUNC")
+);
+
+=========================
+
+
+INSERT INTO FUNCIONARIO (NOME, IDADE) 
+VALUES ('Arnaldo Sousa’, ‘35’);
+
+=========================
+
+Segundo passo, READ:
+
+SELECT ID_FUNC, NOME FROM FUNCIONARIO;
+
+=========================
+
+Terceiro passo, UPDATE:
+
+UPDATE FUNCIONARIO SET NOME = ‘Francisco de Sousa’ WHERE
+  ID_FUNC = 1;
+
+=========================
+
+Quarto passo, DELETE:
+
+DELETE FROM FUNCIONARIO WHERE ID_FUNC = 1;
