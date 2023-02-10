@@ -1,6 +1,5 @@
+![bd](https://user-images.githubusercontent.com/90199276/218116463-7f1db562-b567-48e0-83ea-d8541aa2c9b2.png)
 
-
-    ![bd](https://user-images.githubusercontent.com/90199276/218114978-0f00a2b9-8ff3-4da2-a843-037411acf3c6.png)
 
 ## :memo: Descrição
 repositório voltado a entrega de atividades da cadeira de banco de dados do 4 semestre de informática
